@@ -12,7 +12,15 @@ class Repas{
 		return this.numero	
 	}
 	
-	public int setNumero(int num){
+	public void setNumero(int num){
 		this.numero=num;
+	}
+	
+	public void setDate(LocalDate ldate){
+		this.date=ldate;
+	}
+	
+	public LocalDate getDate(){
+		return this.date;
 	}
 }
